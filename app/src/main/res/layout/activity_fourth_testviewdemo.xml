@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="30dp"
+    >
+
+    <!--
+ ellipsize="marquee"    动作：循环
+ focusable="true"		是否获得焦点：可聚焦
+ focusableInTouchMode="true"	进入触摸输入模式后,该控件是否还有获得焦点的能力
+ marqueeRepeatLimit="marquee_forever"	无线循环
+ -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        />
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnDemo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="一、TestView 实现图文混排"
+        android:textAllCaps="false"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnDemo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="二、TestView 显示丰富的文本"
+        android:textAllCaps="false"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnDemo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="三、TestView 点击文字弹出Activity"
+        android:textAllCaps="false"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnDemo4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="四、TestView 实现跑马灯效果"
+        android:textAllCaps="false"
+        android:textSize="15sp" />
+</LinearLayout>
